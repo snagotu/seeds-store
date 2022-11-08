@@ -1,0 +1,37 @@
+{
+  "name": "seeds-store",
+  "displayName": "React Native Seeds store",
+  "expo": {
+    "name": "development test MS",
+    "slug": "development-test-ms",
+    "version": "1.0.0",
+    "sdkVersion": "46.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "ios": {
+      "bundleIdentifier": "com.test.ms.development",
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.test.ms.development",
+      "versionCode": 1
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png"
+    },
+    "privacy": "unlisted",
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0
+    }
+  }
+}
