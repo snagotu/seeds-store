@@ -51,7 +51,7 @@ const Products = ({ products }: IProductsProps) => {
             <View style={styles.modalHeader}>
               <TouchableOpacity onPress={() => setVisible(false)}>
                 <Image 
-                  source={require('../../../../../../assets/x.png')}
+                  source={require('../../../../../assets/x.png')}
                   style={styles.crossMark}
                 />
               </TouchableOpacity>
@@ -76,7 +76,7 @@ const Products = ({ products }: IProductsProps) => {
             <Text style={{ ...styles.description, ...{color: products.textColor}}}>{products.description}</Text>
             <Text style={{ ...styles.number, ...{color: products.textColor}}}>price: {String(products.price)}</Text>
             <View style={styles.flagHeader}>
-                {products.ukOnly ? <Image source={require('../../../../../../assets/uk.png')} style={styles.crossMark} />: <Text />}
+                {products.ukOnly ? <Image source={require('../../../../../assets/uk.png')} style={styles.crossMark} />: <Text />}
             </View>
         </View>      
         </TouchableOpacity> 
